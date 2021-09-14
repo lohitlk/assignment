@@ -357,40 +357,8 @@
 
 
 
-        <script>
-            var video, canvas, msg;
-            var load = function () {
-                video  = document.getElementById('video');
-                canvas = document.getElementById('canvas');
-                msg    = document.getElementById('error');
-                if( navigator.getUserMedia ) {
-                    video.onclick = function () {
-                        var context = canvas.getContext("2d");
-                        context.drawImage(video, 0, 0, 240, 320);
-                        var image = {"demo" : {
-                            "type"  : "device",
-                            "image" : canvas.toDataURL("image/png")
-                        }};
-                    };
-    
-                    var success = function ( stream ) {
-                        video.src = stream;
-                    };
-    
-                    var error = function ( err ) {
-                        msg.innerHTML = "Error: " + err.code;
-                    };
-    
-                    navigator.getUserMedia('video', success, error);
-    
-                } else {
-                    msg.innerHTML = "Native web camera not supported :(";
-                }
-    
-            };
-    
-            window.addEventListener('DOMContentLoaded', load, false);
-        </script>
+
+                
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
