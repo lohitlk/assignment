@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp</title>
+    <link rel="icon" href="img/whatsapp.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class=" col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10" style="background-color: #128c7e;height: ;">
+                <span class="text-*-left"
+                    style="color: white;padding-top: 10px;font-size: 25px;margin-left: 10px;">WhatsApp</span>
+
+                <span class="float-right row">
+                    <span class="col" style="color: white; margin-top: 10px;">
+                        <i class="fa fa-search"></i>
+                    </span>
+                    <div class="dropdown col">
+                        <button type="button" class="btn btn-sm " data-toggle="dropdown" aria-expanded="false"
+                            style="padding-top: 12px;color: white; background-color: transparent">
+                            <h4 class="d-flex align-items-center">
+                                <i class="fa fa-ellipsis-v text-one"></i>
+                            </h4>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end"
+                            style="position: absolute; transform: translate3d(30px, 44px, 0px); top: 0px; left: 0px; will-change: transform;">
+                            <a class="dropdown-item" href="#">
+                                <p>New group</p>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <p>New broadcast</p>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <p>Whatsapp Web</p>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <p>Starred messages</p>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <p>Settings</p>
+                            </a>
+                        </div>
+                    </div><br>
+                </span>
+
+            </div>
+
+        </div>
+        <!------------------------------------------------------------------------------------------------------------------------>
+        <div class="row justify-content-center">
+
+            <div class=" col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10"
+                style="background-color: #128c7e;height: 40px;">
+                <ul class="nav nav-pills" style="text-align: center;">
+                    <li class="nav-item" style="width: 25%;">
+                        <a class="" data-toggle="pill" href="#camera" style="font-size: larger; color: white;">
+                            <i class="fa fa-camera"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="width: 25%;">
+                        <a class=" active" data-toggle="pill" href="#chats" style="color: white;">CHATS</a>
+                    </li>
+                    <li class="nav-item" style="width: 25%;">
+                        <a class=" " data-toggle="pill" href="#status" style="color: white;">STATUS</a>
+                    </li>
+                    <li class="nav-item" style="width: 25%;">
+                        <a class="" data-toggle="pill" href="#calls" style="color: white;">CALLS</a>
+                    </li>
+                </ul>
+              <br />
+                <div class="tab-content">
+                    <div class="tab-pane container-full fade text-center" id="camera">
+                        <video id="video" class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10" autoplay></video>
+                        <script src="js/script.js"></script>
+                    </div>
+                    <div class="tab-pane container-full active" id="chats">
+                        <div class="row">
+                            <div class=" col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgray;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/elon.jpg" alt="pro-pic"
+                                    height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">elon musk
+                                    <span class="float-right">12:00</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span>
+                                        <i class="fa fa-check"></i>
+                                    </span> Hello elon.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/satya.jpg" alt="pro-pic"
+                                    height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">Satya Nadella
+                                    <span class="float-right">1:00</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span>
+                                        <i class="fa fa-check" style="color: blue;"></i>
+                                    </span> Arrange the meeting by 2:30
+
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/sundar.jpg" alt="pro-pic"
+                                    height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">sundar pichai
+                                    <span class="float-right">2:00</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    I will meet you tomorrow.
+
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/tech.jpg" alt="pro-pic"
+                                    height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">Techno minds
+                                    <span class="float-right">3:05</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    elon: lohith i will meet you tomorrow
+                                </p>
+
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/timcook.jpg" alt="pro-pic"
+                                    height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">Tim cook
+                                    <span class="float-right">4:30</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    It's a good idea
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/thoughtfocus.jpg" alt="pro-pic"
+                                    height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">Thoughtfocus team1
+                                    <span class="float-right">5:55</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;"> Satish: we can start
+                                    the session.</p>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/zuckerberg.jpg" alt="pro-pic" height="40px"
+                                    width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">Zuker berg
+                                    <span class="float-right">6:16</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span>
+                                        <i class="fa fa-check" style="color: blue;"></i>
+                                    </span>
+                                     Bro, 'i want to buy WhatsApp'.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container-full fade" id="status">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/lohitprofile.png" alt="pro-pic" height="50px"
+                                    width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">My status</h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Tap to add status
+                                    update.</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey; height:auto; background-color: rgb(226, 225, 225);">
+                                <h5 class="text-bold" style="margin-top: 15px; background-color: aliceblue;">Recent updates</h5>
+                                <img class="float-left rounded-circle pro" src="img/spacex.jpg" alt="pro-pic" height="50px"
+                                    width="50px" style="margin-top:15px;border-radius: 50%;border:2px solid green;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">elon
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Yesterday, 10:33 PM</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/amazon.jpg" alt="pro-pic" height="50px"
+                                    width="50px" style="margin-top:15px;border-radius: 50%;border:2px solid green;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Ravi cit
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Yesterday, 10:33 PM</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <h5 class="text-bold" style="margin-top: 15px; background-color: aliceblue;">Viewed updates</h5>
+                                <img class="float-left rounded-circle pro" src="img/falls.jpg" alt="pro-pic" height="50px"
+                                    width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border:3px solid whitesmoke;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">vishwas
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Yesterday, 10:33 AM</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/cit.jpg" alt="pro-pic"
+                                    height="50px" width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border:3px solid whitesmoke;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">malli cit
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Yesterday, 05:00 AM</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/maxresdefault.jpg" alt="pro-pic" height="50px"
+                                    width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border:3px solid whitesmoke;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">yashas
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Yesterday, 10:33 PM</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/laptop.jpg" alt="pro-pic"
+                                    height="50px" width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border:3px solid whitesmoke;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">umesh
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Today, 10:00 AM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container-full fade" id="calls">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/elon.jpg" alt="pro-pic" height="50px"
+                                    width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">elon
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <i class="fa fa-video-camera" aria-hidden="true" style="color: green;"></i>
+                                    </span>
+                                </h5>
+                                <i class="fa fa-arrow-up" aria-hidden="true" style="margin-left: 10px; color: green;"></i>
+                                <span class="text-muted">September 14, 11:52 PM</span>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/satya.jpg" alt="pro-pic"
+                                    height="50px" width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Satya Nadella
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <i class="fa fa-phone" aria-hidden="true" style="color: green;"></i>
+                                    </span>
+                                </h5>
+                                <i class="fa fa-arrow-down" aria-hidden="true" style="margin-left: 10px; color: red;"></i>
+                                <span class="text-muted">September 14, 10:20 PM</span>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/timcook.jpg" alt="pro-pic" height="50px"
+                                    width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Tim cook
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <i class="fa fa-video-camera" aria-hidden="true" style="color: green;"></i>
+                                    </span>
+                                </h5>
+                                <i class="fa fa-arrow-down" aria-hidden="true" style="margin-left: 10px; color: green;"></i>
+                                <span class="text-muted">September 14, 9:30 PM</span>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/zuckerberg.jpg" alt="pro-pic" height="50px"
+                                    width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Zuker berg
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <i class="fa fa-phone" aria-hidden="true" style="color: green;"></i>
+                                    </span>
+                                </h5>
+                                <i class="fa fa-arrow-up" aria-hidden="true" style="margin-left: 10px; color: green"></i>
+                                <span class="text-muted">September 14 June, 5:00 pm</span>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/kajal.jpg" alt="pro-pic"
+                                    height="50px" width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Kajal agarwal
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <i class="fa fa-video-camera" aria-hidden="true" style="color: green;"></i>
+                                    </span>
+                                </h5>
+                                <i class="fa fa-arrow-down" aria-hidden="true" style="margin-left: 10px; color: green;"></i>
+                                <span class="text-muted">September 14, 8:51 PM</span>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/sundar.jpg" alt="pro-pic" height="50px"
+                                    width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">sundar pichai
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <i class="fa fa-phone" aria-hidden="true" style="color: green;"></i>
+                                    </span>
+                                </h5>
+                                <i class="fa fa-arrow-down" aria-hidden="true" style="margin-left: 10px; color: red;"></i>
+                                <span class="text-muted">September 14, 8:51 AM</span>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/tamannaah.jpg" alt="pro-pic"
+                                    height="50px" width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Tamannaah
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <i class="fa fa-phone" aria-hidden="true" style="color: green;"></i>
+                                    </span>
+                                </h5>
+  
+                                    <i class="fa fa-arrow-down" aria-hidden="true" style="margin-left: 10px; color: red;"></i>
+                                <span class="text-muted">September 13, 8:51 PM</span>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="img/billgates.jpg" alt="pro-pic" height="50px"
+                                    width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Bill gates
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <i class="fa fa-video-camera" aria-hidden="true" style="color: green;"></i>
+                                    </span>
+                                </h5>
+                                <i class="fa fa-arrow-down" aria-hidden="true" style="margin-left: 10px; color: green;"></i>
+                                <span class="text-muted">Septemer 12, 8:51 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <script>
+            var video, canvas, msg;
+            var load = function () {
+                video  = document.getElementById('video');
+                canvas = document.getElementById('canvas');
+                msg    = document.getElementById('error');
+                if( navigator.getUserMedia ) {
+                    video.onclick = function () {
+                        var context = canvas.getContext("2d");
+                        context.drawImage(video, 0, 0, 240, 320);
+                        var image = {"demo" : {
+                            "type"  : "device",
+                            "image" : canvas.toDataURL("image/png")
+                        }};
+                    };
+    
+                    var success = function ( stream ) {
+                        video.src = stream;
+                    };
+    
+                    var error = function ( err ) {
+                        msg.innerHTML = "Error: " + err.code;
+                    };
+    
+                    navigator.getUserMedia('video', success, error);
+    
+                } else {
+                    msg.innerHTML = "Native web camera not supported :(";
+                }
+    
+            };
+    
+            window.addEventListener('DOMContentLoaded', load, false);
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+            integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
